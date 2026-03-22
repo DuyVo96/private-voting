@@ -10,6 +10,7 @@ import { ProposalCard } from './ProposalCard';
 import { CreateProposalModal } from './CreateProposalModal';
 import { Plus, Shield } from 'lucide-react';
 import { fetchAllProposals } from '@/lib/solanaClient';
+import { HowItWorks } from './HowItWorks';
 
 const PROGRAM_ID = new PublicKey(
   process.env.NEXT_PUBLIC_PROGRAM_ID ?? 'VotEjnN5K9bxPZBk6WBEGcwcDdnADLUMBRZCKsFgUkP'
@@ -82,6 +83,8 @@ export function ProposalList() {
           <span className="text-[#a78bfa]">Arcium&apos;s TEE</span> — only final aggregate results are published on-chain.
         </span>
       </div>
+
+      <HowItWorks />
 
       {/* Proposal list */}
       {isLoading ? (
