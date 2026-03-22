@@ -1,3 +1,6 @@
+# Claude
+.claude/
+
 # Rust / Anchor
 private-voting-contract/target/
 private-voting-contract/node_modules/
