@@ -1,0 +1,22 @@
+# Rust / Anchor
+private-voting-contract/target/
+private-voting-contract/node_modules/
+private-voting-contract/.anchor/
+
+# Node
+private-voting-web/node_modules/
+private-voting-web/.next/
+private-voting-web/.vercel/
+
+# Env files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
